@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "prettier -w src/App.jsx && prettier -w src/**/*.jsx"
+    "format": "prettier -w src/App.jsx && prettier -w src/**/*.jsx",
+    "lint": "eslint src/App.jsx"
   },
   "dependencies": {
     "react": "^18.2.0",
